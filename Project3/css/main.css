@@ -1,0 +1,84 @@
+body {padding: 0;
+	margin:0;}
+
+
+
+/*effects on the top nav bar*/
+nav {background:#f07800;
+	/*padding-top: 5px*/}
+
+/*texts effects of contents inside the nav bar*/
+nav li {display: inline;
+		text-align: center;
+		color: white;
+		
+	}
+
+li {margin: 10px 30px;}
+/*effects of the oraange photo inside th nav bar*/
+.OJ {float: 5%}
+
+/*search bar*/
+h1 {padding-left: 70%;
+	width: 130px;
+	display: inline;}
+
+/*photo of the orange on the middle of the page*/
+.body-img {
+    float:left;
+    width: 100%;
+    }
+
+/*effects of the text in the middle of the page*/
+.body-text {/*float:right*/;
+	position: absolute;
+	width: 30%;
+	color: orange;
+	padding-left: 700px;
+	font-size: 40px;
+	}
+/*button effects*/
+button {width: 45%;
+		}
+
+/*greay footer block at the bottom of the screen*/
+footer {background: grey;
+		text-align:center;
+		padding: 40px;
+		position: relative; bottom: -500px;}
+
+span {color: #f07800}
+/*font color of the "R" logo on the nav bar*/
+.oj-text {color: white}
+
+
+.R {font-size: 20px;
+	margin-bottom: 90%}
+
+
+
+
+/*meia queries*/
+@media (max-width: 768px) {
+/*changes made from the nav bar when resizind*/
+	nav li {display: block;}
+/*response made to the text in the body when resizing*/
+	.body-text {padding: none;
+				position: static;
+				padding-left: 300px}
+/*positioning of the orange image when resizin screen size*/
+	.body-img {padding-left: 100px}
+/*change in button width when resizing screen size*/
+	button {width: 35%;}
+}
+
+	
+	
+		
+
+
+
+
+
+
+
